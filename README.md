@@ -6,5 +6,6 @@ Auto login test engine
 2) Create two spreadsheets with the names in run.py file
 3) Share them with your client email
 4) Install requirements.txt
+6) Download related biggest sized (security version) chromedriver from <a href="https://launchpad.net/ubuntu/trusty/+package/chromium-chromedriver">here</a>. Manually install it <code>sudo dpkg -i Downloads/chromedriver851831581.deb</code> 
 5) Set cron job <br>
 <code>11 * * * *  export DISPLAY=:0; /home/pi/.virtualenvs/eksilogin/bin/python /home/pi/Public/eksilogin/run.py > /home/pi/Public/eksilogin/eksilogin.log 2>&1</code>
