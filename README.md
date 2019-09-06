@@ -6,6 +6,8 @@ Auto login test engine
 <img src="https://i.imgur.com/dbL1sdr.jpg">
 
 3) Enable Sheet and Drive APIs. Create credentials with <i>Service Account Key</i>
+<img src="https://i.imgur.com/zg0bPHp.png">
+
 4) Copy the json config file into your project directory
 5) Create two spreadsheets with the names in run.py file
 6) Share them with your client email
